@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import sys
+import re
 import mylib
 from mylib import title
 import vitesse
@@ -15,3 +16,4 @@ print(x)
 s = "text"
 s = list(s)'''
 
+regex = r"\[.*\]"

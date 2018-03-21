@@ -8,4 +8,5 @@ distance = 19.7
 
 vitesse = distance/temps
 
+# format()
 print("La vitesse est {:.4f}".format(vitesse))

@@ -5,8 +5,16 @@
 
 import sys
 
+# for loop
+
 info = sys.version_info
 version = ".".join(str(x) for x in info)
+info2 = list(info)
+#print(info)
+
+for x in info:
+    print(x)
+
 
 #print('This is python version ' + str(info[0]) + '.' + str(info[1]) + '.' + str(info[2]) + ' ' + str(info[3]) + ' ' + str(info[4]))
 
