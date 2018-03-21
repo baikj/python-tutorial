@@ -11,6 +11,7 @@ list = text.split('\n')
 for i in list:
     p = i.split(',')
     dic[p[0]] = int(p[1])
-print(dic)
+for key in sorted(dic):
+    print(key, '=>', dic[key])
 
 file.close()
